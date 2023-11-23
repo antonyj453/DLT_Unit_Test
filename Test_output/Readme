@@ -1,0 +1,12 @@
+The ouput of the test result is shown error due to following reasons:
+
+* 'GITHUB_EVENT_PATH is missing.
+
+* Need AWS_BUCKET,GCS_BUCKET, AZ_BUCKET, FILE_BUCKET, R2_BUCKET url.
+
+* We have to provide ACTIVE_DESTINATIONS, IMPLEMENTED_DESTINATIONS, SQL_DESTINATIONS, EXCLUDED_DESTINATION_CONFIGURATIONS details.
+
+
+
+
+ 
