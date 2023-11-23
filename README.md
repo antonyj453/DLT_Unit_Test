@@ -15,4 +15,13 @@
 ## Testing python script
 * Navigate to the folder ```tests/load/pipeline```
 * We can see the python script named ```test_merge_disposition.py```
-* 
+* We are going to use ```pytest``` in our programme
+* To use pytest, we have to install the pytest module
+* To install pytest module, use command ```pip install pytest```
+* We use pytest for auto-discovery of test modules and functions.  For more details [pytest](https://docs.pytest.org/en/7.4.x/)
+* To run the script use the command ```pytest -m test_merge_disposition```
+* If no issues are there, we can the expected result on the terminal
+* Most common issue will be ```ModuleNotFoundError: No module named 'tests'```
+* We have to use ```pytest``` instead of ```python or python3``` so that we can get rid of that error mentioned in the above step
+* Finally make sure all the imports from other files and folder structure in proper way.
+
